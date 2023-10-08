@@ -22,3 +22,5 @@ resource "yandex_vpc_subnet" "wp-subnet-c" {
   zone           = "ru-central1-c"
   network_id     = yandex_vpc_network.wp-network.id
 }
+
+#  var.subnets = merge(var.subnets,{"wp-subnet-a" = yandex_vpc_subnet.wp-subnet-a.id})

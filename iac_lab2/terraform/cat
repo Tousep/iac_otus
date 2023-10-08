@@ -1,0 +1,7 @@
+cat
+key_iac_sacc.json
+network.tf
+provider.tf
+terraform.tfstate
+variables.tf
+wp.auto.tfvars
